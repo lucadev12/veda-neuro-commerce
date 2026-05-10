@@ -66,7 +66,6 @@ Each card:
 - Eyebrow label (goal name, uppercase)
 - Headline (outcome-focused, includes a stat)
 - Description (1-2 sentences)
-- Evidence stat (e.g., "73% improvement in recovery markers")
 - Link: "View protocols ->" -> /catalog?goal=X
 - Large product/lifestyle image
 
@@ -131,7 +130,6 @@ Responsive grid: 3 cols desktop, 2 tablet, 1 mobile.
 
 Each product card:
 - Product image (square, contained)
-- Evidence badge ("Well-studied" / "Emerging" / "Anecdotal")
 - Product name
 - Subtitle (short tagline)
 - Price
@@ -168,7 +166,6 @@ Right (~55%):
 | Field              | Notes                              |
 |--------------------|------------------------------------|
 | Format             | topical / oral / nasal / injectable |
-| Evidence grade     | well-studied / emerging / anecdotal |
 | Dosage             | Dosing instructions                |
 | Protocol           | Usage protocol                     |
 | Cycle              | Only shown if cycle data exists    |
@@ -216,7 +213,6 @@ Displays the AI-generated protocol.
 #### Primary Recommendation
 Single large card for the lead peptide:
 - Product image
-- Evidence badge
 - Product name + subtitle
 - Role description (why this was chosen)
 - Price
@@ -257,7 +253,6 @@ Highlighted box with the AI's optimization rationale (1-2 paragraphs).
   "protocol": "string",
   "cycle": "string (optional)",
   "contraindications": ["string[]"],
-  "evidence": "well-studied | emerging | anecdotal"
 }
 ```
 
